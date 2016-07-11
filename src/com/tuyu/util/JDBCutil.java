@@ -39,10 +39,12 @@ public class JDBCutil {
         }
         return conn;
     }
+    /*
 
     public static void main(String[] args) {
-        JDBCutil db=new JDBCutil();
-        db.getConntion();
+    JDBCutil db=new JDBCutil();
+    db.getConntion();
 
     }
+    */
 }
