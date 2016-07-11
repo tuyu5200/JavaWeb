@@ -1,6 +1,9 @@
 package com.tuyu.service.impl;
 
+import com.tuyu.model.UserEntity;
 import com.tuyu.service.IUserService;
+
+import java.util.List;
 
 /**
  * 方法用途：
@@ -9,4 +12,24 @@ import com.tuyu.service.IUserService;
  */
 public class UserServiceImpl implements IUserService {
 
+    @Override
+    public boolean updateUser(UserEntity userEntity) {
+
+
+    }
+
+    @Override
+    public boolean addUser(UserEntity userEntity) {
+        return false;
+    }
+
+    @Override
+    public List<UserEntity> queryUser(String acount) {
+        return null;
+    }
+
+    @Override
+    public boolean deleteUser(String account) {
+        return false;
+    }
 }
